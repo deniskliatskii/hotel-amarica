@@ -1,0 +1,123 @@
+.main-footer {
+    background: $footerBgColor;
+    padding: 34px 0 26px 0;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 37px;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.contacts-box > p {
+    margin-top: 23px;
+    max-width: 235px;
+}
+
+.contacts-box > p i {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+.tel,
+.mail,
+.adress {
+    color: #fff;
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.84px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 315px;
+}
+
+.nav-footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-footer__item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.nav-footer__link {
+    color: #fff;
+    font-family: $accentFontBold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    transition: color .1s ease-in-out;
+        &:hover {
+            color: $accentColor;
+        }
+}
+
+// .social-box {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-item a i {
+    color: #fff;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    transition: color .1s ease-in-out,
+                border .1s ease-in-out;
+        &:hover {
+            color: $accentColor;
+            border: 1px solid $accentColor;
+        }
+}
+
+.social-box__title {
+    color: #fff;
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.28px;
+    margin-bottom: 25px;
+
+}
+
+.footer-bottom {
+    border-top: 1px solid $footerLineColor;
+    padding-top: 23px;
+    text-align: center;
+}
+
+.copy {
+    color: #fff;
+    font-family: $baseFont;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.84px;
+}

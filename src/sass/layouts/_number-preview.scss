@@ -1,0 +1,32 @@
+.number-preview {
+    margin-bottom: 92px;
+}
+
+.number-preview__grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.preview-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.number-preview__left {
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number-preview__center {
+    width: 51%;
+}
+
+.number-preview__right {
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,35 @@
+            //Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+
+            // Fontawesome
+@import "../libs/fontawesome/fontawesome-all.min";
+
+            // Normalize
+@import "../libs/normalize/normalize";
+
+            //  *** COMPONENTS ***
+
+// Adjustment  mixin variables
+@import "misc/_mixin.scss";
+@import "misc/_fonts.scss";
+@import "misc/_variables.scss";
+@import "misc/_adjustment.scss";
+
+//butons
+@import "components/_buttons.scss";
+@import "components/_inputs.scss";
+@import "components/_modalwindow.scss";
+
+            //  *** LAYOUTS ***
+@import "layouts/_header.scss";
+@import "layouts/_features.scss";
+@import "layouts/_activities.scss";
+@import "layouts/_number-preview.scss";
+@import "layouts/_weather-baner.scss";
+@import "layouts/_news.scss";
+@import "layouts/_footer.scss";
+
+
+
+

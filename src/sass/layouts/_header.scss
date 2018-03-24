@@ -1,0 +1,73 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0 26px 0;
+}
+
+.logo {
+    background: url(../img/logo/logo-site.png)center center no-repeat;
+    background-size: cover;
+    width: 121px;
+    height: 65px;
+}
+
+.main-nav {
+    flex-basis: 491px;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.nav-link {
+    font-family: $accentFont;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    color: $navColor;
+    transition: color .1s ease-in-out;
+        &:hover {
+            color: $accentColor;
+        }
+}
+
+.header-baner {
+    display: flex;
+    margin-bottom: 52px;
+}
+
+.left-baner {
+    position: relative;
+}
+
+.baner-text {
+    position: absolute;
+    right: 354px;
+    bottom: 0;
+    // width: 457px;
+}
+
+.baner-title {
+    font-family: $accentFontBold;
+    color: #fff;
+    font-size: 112px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.baner-subtitle {
+    font-family: $accentFontBold;
+    color: $headingColor;
+    font-size: 70px;
+    font-weight: 400;
+    // line-height: 88.51px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,112 @@
+.booking {
+    background-color: $inputBoxColor;
+    border-bottom: 14px solid $accentColor;
+    padding: 30px;
+    margin-bottom: 116px;
+}
+// *** placeholder styles ***
+
+.booking form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.booking input {
+    padding: 20px;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    background: #fff;
+}
+
+.booking input:last-child {
+    margin-right: 0;
+    background: $accentColor; 
+    color: #ffffff;
+    font-family: $accentFont;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 37px;
+}
+
+input::-webkit-input-placeholder {           /* Google Chrome*/
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+// /*.class input*/::-moz-placeholder {                   /* Firefox 19+ */
+//     font-family: 'Popins', sans-serif;
+//     color: #b8b8b8;
+//     font-size: 1rem;
+//     font-weight: 400;
+//     line-height: 2rem;
+//     @media screen and (max-width: 596px) {
+//         font-size: 0.8rem;
+//     }
+// }
+
+
+// /*.class input*/:-moz-placeholder {                    /* Firefox 18- */
+//     font-family: 'Popins', sans-serif;
+//     color: #b8b8b8;
+//     font-size: 1rem;
+//     font-weight: 400;
+//     line-height: 2rem;
+//     @media screen and (max-width: 596px) {
+//         font-size: 0.8rem;
+//     }
+// }
+
+
+// /*.class input*/:-ms-input-placeholder {               /* IE */
+//     font-family: 'Popins', sans-serif;
+//     color: #b8b8b8;
+//     font-size: 1rem;
+//     font-weight: 400;
+//     line-height: 2rem;
+//     @media screen and (max-width: 596px) {
+//         font-size: 0.8rem;
+//     }
+// }
+
+
+
+// сдвиг placeholder-а вправо при фокусе
+
+
+
+// /*.class input*/::-webkit-input-placeholder {
+//     text-indent: 0px;
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/::-moz-placeholder {
+//     text-indent: 0px;   
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:-moz-placeholder {
+//     text-indent: 0px;   
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:-ms-input-placeholder {
+//     text-indent: 0px;   
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:focus::-webkit-input-placeholder {
+//     text-indent: 500px; 
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:focus::-moz-placeholder  {
+//     text-indent: 500px; 
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:focus:-moz-placeholder {
+//     text-indent: 500px; 
+//     transition: text-indent 0.5s ease;
+// }
+// /*.class input*/:focus:-ms-input-placeholder {
+//     text-indent: 500px; 
+//     transition: text-indent 0.5s ease;
+// }
